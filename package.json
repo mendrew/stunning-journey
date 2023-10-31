@@ -1,0 +1,25 @@
+{
+  "name": "size-limit-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "size": "size-limit --json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@size-limit/file": "10.0.1",
+    "@size-limit/webpack": "10.0.1",
+    "@size-limit/webpack-css": "10.0.1",
+    "size-limit": "10.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "size-limit": [
+    {
+      "name": "JS",
+      "path": "index.js",
+      "import": "*"
+    }
+  ]
+}
